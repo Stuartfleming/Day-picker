@@ -1,0 +1,14 @@
+*{box-sizing: border-box; background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);;};
+body {
+  background-color:  rgb(208, 79, 139);
+}
+
+h1 {font-size:40px; color: blue;text-align: center;}
+li {display:inline;}
+li {list-style:none; border: 5px solid cyan; background:cyan;font-weight:400; width:20%;margin-top: 40px;text-align: center;border-radius: 5px;}
+.hidden {display:none; font-size:35px; }
+span {font-size:30px; font-weight:400px;background:none;}
+
+@media  screen and (max-width: 700px ) {.weekdays {line-height: 30px; text-align:center;} 
+  body {text-align: center; } img {width:80%;}
+}
